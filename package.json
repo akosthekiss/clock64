@@ -1,0 +1,40 @@
+{
+  "name": "clock64",
+  "version": "1.0.0",
+  "description": "Clock64 - a C64-inspired Clockface for Fitbit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akosthekiss/clock64.git"
+  },
+  "author": "Akos Kiss",
+  "license": "BSD-3-Clause",
+  "fitbit": {
+    "appUUID": "13437719-34b4-4305-aec4-fce6b497fcb2",
+    "appType": "clockface",
+    "appDisplayName": "Clock64",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0",
+    "@fitbit/sdk-cli": "^1.7.2",
+    "pngjs": "^5.0.0",
+    "yargs": "^15.4.1"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit",
+    "vic2:8": "scripts/vicbit.js scripts/vic2.json --out resources/vic2/8",
+    "vic2:16": "scripts/vicbit.js scripts/vic2.json --out resources/vic2/16 --scale 2",
+    "vic2:48": "scripts/vicbit.js scripts/vic2.json --out resources/vic2/48 --scale 6 --glyph 0 1 2 3 4 5 6 7 8 9 COLON SPACE"
+  }
+}

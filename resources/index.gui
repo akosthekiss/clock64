@@ -1,0 +1,129 @@
+<!--
+  -- Copyright (c) 2020 Akos Kiss.
+  --
+  -- Licensed under the BSD 3-Clause License
+  -- <LICENSE.md or https://opensource.org/licenses/BSD-3-Clause>.
+  -- This file may not be copied, modified, or distributed except
+  -- according to those terms.
+  -->
+
+<svg viewport-fill="#7c70da">
+  <defs>
+    <symbol id="tinychar">
+      <image x="0" y="0" width="8" height="8" fill="#7c70da" opacity="1" href="vic2/8/SPACE.png" />
+    </symbol>
+    <symbol id="smallchar">
+      <image x="0" y="0" width="16" height="16" fill="#7c70da" opacity="1" href="vic2/16/SPACE.png" />
+    </symbol>
+    <symbol id="bigchar">
+      <image x="0" y="0" width="48" height="48" fill="#7c70da" opacity="1" href="vic2/48/SPACE.png" />
+    </symbol>
+  </defs>
+
+  <rect x="16" y="16" width="100%-32" height="100%-32" fill="#3e31a2" />
+
+  <use id="model-0" href="#tinychar" x="50%-128" y="50%-88" />
+  <use id="model-1" href="#tinychar" x="50%-120" y="50%-88" />
+  <use id="model-2" href="#tinychar" x="50%-112" y="50%-88" />
+  <use id="model-3" href="#tinychar" x="50%-104" y="50%-88" />
+  <use id="model-4" href="#tinychar" x="50%-96" y="50%-88" />
+  <use id="model-5" href="#tinychar" x="50%-88" y="50%-88" />
+  <use id="model-6" href="#tinychar" x="50%-80" y="50%-88" />
+  <use id="model-7" href="#tinychar" x="50%-72" y="50%-88" />
+
+  <use id="model-8" href="#tinychar" x="50%-64" y="50%-88" />
+  <use id="model-9" href="#tinychar" x="50%-56" y="50%-88" />
+  <use id="model-10" href="#tinychar" x="50%-48" y="50%-88" />
+  <use id="model-11" href="#tinychar" x="50%-40" y="50%-88" />
+  <use id="model-12" href="#tinychar" x="50%-32" y="50%-88" />
+  <use id="model-13" href="#tinychar" x="50%-24" y="50%-88" />
+  <use id="model-14" href="#tinychar" x="50%-16" y="50%-88" />
+  <use id="model-15" href="#tinychar" x="50%-8" y="50%-88" />
+
+  <use id="model-16" href="#tinychar" x="50%" y="50%-88" />
+  <use id="model-17" href="#tinychar" x="50%+8" y="50%-88" />
+  <use id="model-18" href="#tinychar" x="50%+16" y="50%-88" />
+  <use id="model-19" href="#tinychar" x="50%+24" y="50%-88" />
+  <use id="model-20" href="#tinychar" x="50%+32" y="50%-88" />
+  <use id="model-21" href="#tinychar" x="50%+40" y="50%-88" />
+  <use id="model-22" href="#tinychar" x="50%+48" y="50%-88" />
+  <use id="model-23" href="#tinychar" x="50%+56" y="50%-88" />
+
+  <use id="model-24" href="#tinychar" x="50%+64" y="50%-88" />
+  <use id="model-25" href="#tinychar" x="50%+72" y="50%-88" />
+  <use id="model-26" href="#tinychar" x="50%+80" y="50%-88" />
+  <use id="model-27" href="#tinychar" x="50%+88" y="50%-88" />
+  <use id="model-28" href="#tinychar" x="50%+96" y="50%-88" />
+  <use id="model-29" href="#tinychar" x="50%+104" y="50%-88" />
+  <use id="model-30" href="#tinychar" x="50%+112" y="50%-88" />
+  <use id="model-31" href="#tinychar" x="50%+120" y="50%-88" />
+
+  <use id="bytes-0" href="#tinychar" x="50%-128" y="50%-72" />
+  <use id="bytes-1" href="#tinychar" x="50%-120" y="50%-72" />
+  <use id="bytes-2" href="#tinychar" x="50%-112" y="50%-72" />
+  <use id="bytes-3" href="#tinychar" x="50%-104" y="50%-72" />
+  <use id="bytes-4" href="#tinychar" x="50%-96" y="50%-72" />
+  <use id="bytes-5" href="#tinychar" x="50%-88" y="50%-72" />
+  <use id="bytes-6" href="#tinychar" x="50%-80" y="50%-72" />
+  <use id="bytes-7" href="#tinychar" x="50%-72" y="50%-72" />
+
+  <use id="bytes-8" href="#tinychar" x="50%-64" y="50%-72" />
+  <use id="bytes-9" href="#tinychar" x="50%-56" y="50%-72" />
+  <use id="bytes-10" href="#tinychar" x="50%-48" y="50%-72" />
+  <use id="bytes-11" href="#tinychar" x="50%-40" y="50%-72" />
+  <use id="bytes-12" href="#tinychar" x="50%-32" y="50%-72" />
+  <use id="bytes-13" href="#tinychar" x="50%-24" y="50%-72" />
+  <use id="bytes-14" href="#tinychar" x="50%-16" y="50%-72" />
+  <use id="bytes-15" href="#tinychar" x="50%-8" y="50%-72" />
+
+  <use id="bytes-16" href="#tinychar" x="50%" y="50%-72" />
+  <use id="bytes-17" href="#tinychar" x="50%+8" y="50%-72" />
+  <use id="bytes-18" href="#tinychar" x="50%+16" y="50%-72" />
+  <use id="bytes-19" href="#tinychar" x="50%+24" y="50%-72" />
+  <use id="bytes-20" href="#tinychar" x="50%+32" y="50%-72" />
+  <use id="bytes-21" href="#tinychar" x="50%+40" y="50%-72" />
+  <use id="bytes-22" href="#tinychar" x="50%+48" y="50%-72" />
+  <use id="bytes-23" href="#tinychar" x="50%+56" y="50%-72" />
+
+  <use id="bytes-24" href="#tinychar" x="50%+64" y="50%-72" />
+  <use id="bytes-25" href="#tinychar" x="50%+72" y="50%-72" />
+  <use id="bytes-26" href="#tinychar" x="50%+80" y="50%-72" />
+  <use id="bytes-27" href="#tinychar" x="50%+88" y="50%-72" />
+  <use id="bytes-28" href="#tinychar" x="50%+96" y="50%-72" />
+  <use id="bytes-29" href="#tinychar" x="50%+104" y="50%-72" />
+  <use id="bytes-30" href="#tinychar" x="50%+112" y="50%-72" />
+  <use id="bytes-31" href="#tinychar" x="50%+120" y="50%-72" />
+
+  <use id="ready-0" href="#tinychar" x="50%-128" y="50%-56" />
+  <use id="ready-1" href="#tinychar" x="50%-120" y="50%-56" />
+  <use id="ready-2" href="#tinychar" x="50%-112" y="50%-56" />
+  <use id="ready-3" href="#tinychar" x="50%-104" y="50%-56" />
+  <use id="ready-4" href="#tinychar" x="50%-96" y="50%-56" />
+  <use id="ready-5" href="#tinychar" x="50%-88" y="50%-56" />
+
+  <use id="cursor" href="#tinychar" x="50%-128" y="50%-48" />
+
+  <use id="time-0" href="#bigchar" x="50%-120" y="50%-24" />
+  <use id="time-1" href="#bigchar" x="50%-72" y="50%-24" />
+  <use id="time-2" href="#bigchar" x="50%-24" y="50%-24" />
+  <use id="time-3" href="#bigchar" x="50%+24" y="50%-24" />
+  <use id="time-4" href="#bigchar" x="50%+72" y="50%-24" />
+
+  <use id="date-0" href="#smallchar" x="50%-128" y="50%+48" />
+  <use id="date-1" href="#smallchar" x="50%-112" y="50%+48" />
+  <use id="date-2" href="#smallchar" x="50%-96" y="50%+48" />
+  <use id="date-3" href="#smallchar" x="50%-80" y="50%+48" />
+  <use id="date-4" href="#smallchar" x="50%-64" y="50%+48" />
+  <use id="date-5" href="#smallchar" x="50%-48" y="50%+48" />
+  <use id="date-6" href="#smallchar" x="50%-32" y="50%+48" />
+  <use id="date-7" href="#smallchar" x="50%-16" y="50%+48" />
+
+  <use id="date-8" href="#smallchar" x="50%" y="50%+48" />
+  <use id="date-9" href="#smallchar" x="50%+16" y="50%+48" />
+  <use id="date-10" href="#smallchar" x="50%+32" y="50%+48" />
+  <use id="date-11" href="#smallchar" x="50%+48" y="50%+48" />
+  <use id="date-12" href="#smallchar" x="50%+64" y="50%+48" />
+  <use id="date-13" href="#smallchar" x="50%+80" y="50%+48" />
+  <use id="date-14" href="#smallchar" x="50%+96" y="50%+48" />
+  <use id="date-15" href="#smallchar" x="50%+112" y="50%+48" />
+</svg>
